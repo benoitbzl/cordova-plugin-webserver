@@ -39,7 +39,7 @@
     "cordova": "^8.0.0"
   },
   "scripts": {
-    "build": "./node_modules/babel-cli/bin/babel.js src/www/webserver.js --out-file webserver.js"
+    "build": "babel src/www/webserver.js --out-file webserver.js"
   },
   "browser": {
     "cordova": false
